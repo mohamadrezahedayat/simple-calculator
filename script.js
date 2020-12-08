@@ -16,7 +16,7 @@ let operatorValue = "";
 let awaitingNextValue = false;
 
 
-  sendNumberValue(number) {
+function  sendNumberValue(number) {
   //replace current display value if first value is entered
   if (awaitingNextValue) {
     calculatorDisplay.textContent = number;
